@@ -1,0 +1,15 @@
+{
+  "name": "verify-email-domain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "verifyEmailDomain.js",
+  "scripts": {
+    "deploy": "serverless deploy --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "email-addresses": "^5.0.0"
+  }
+}

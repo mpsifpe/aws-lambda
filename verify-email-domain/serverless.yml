@@ -1,0 +1,14 @@
+service: verify-email-domain
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: us-east-1
+  memorySize: 1024
+
+functions:
+  handle:
+    handler: verifyEmailDomain.handle
+    environment:
+      DOMAIN: gmail.com
